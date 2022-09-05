@@ -8,12 +8,13 @@
 
   <ItemGroup>
     <Folder Include="Communication\" />
-    <Folder Include="Data\" />
-    <Folder Include="DomainObjects\" />
-    <Folder Include="Mediator\" />
-    <Folder Include="Messages\" />
     <Folder Include="Validation\" />
-    <Folder Include="Utils\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.2.1" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
   </ItemGroup>
 
 </Project>
